@@ -12,3 +12,10 @@ In order to read blog in one place, firstly I listed website which I visit to re
 ----------
 <h2>Disclaimer!⚠</h2>
 I am not taking any of the data from these respective website. All Credits and copyrights belongs to these site. This project is only for <strong>Educational Purpose</strong>.
+
+
+-------
+Requriements -
+- Python 3.7
+- Flask
+- Beautiful Soup
