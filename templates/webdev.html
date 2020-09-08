@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="data">
+        <h3>Speckyboy - Web Design</h3>
+
+        <div class="row">
+            <div class="data-info">
+                {% for img, l, post_heading, auth_link, auth_name, short in data %}
+                <div class="card">
+                    <div class="card-body" style="max-width: 30rem;">
+                        <img class="card-img-top" src="{{img}}">
+                        <h4 class="card-title">{{post_heading}}</h4>
+                        <p class="card-text">{{short}}</p>
+                        <h6>Author: <a href="{{auth_link}}">{{auth_name}}</a></h6>
+                        <hr>
+                        <a href="{{l}}" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

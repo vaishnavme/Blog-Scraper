@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f7f7f7 !important;
+}
+/* NAVBAR */
+
+.nav {
+    display: block;
+    margin: 15px auto 15px;
+    border-bottom: #37b1cf 1px solid;
+}
+.nav-items {
+    display: block;
+    margin: 0 auto 0;
+    text-align: center;
+}
+.nav-items ul li {
+    list-style-type: none;
+    display: inline;
+    justify-content: space-evenly;
+    padding: 0 15px 0;
+}
+.nav-items ul li a {
+    color: black;
+    font-weight: 500;
+    transition: ease-in-out;
+}
+.nav-items ul li a:hover{
+    text-decoration: none;
+    border-bottom: #37b1cf 4px solid;
+    border-radius: 2px;
+    transition: 200ms;
+}
+/* END NAVBAR */
+
+/* Common Card Layout */
+.data h3 {
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.data-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    list-style: none;
+    margin-left: 0px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+@media screen and (max-width: 1000px) {
+    .data-info {
+      grid-template-columns: 1fr; } 
+}
+.card {
+    margin: 15px 0 15px;
+    transition: ease-in-out 500ms;
+}
+.card:hover {
+    box-shadow: 6px 7px 34px -8px rgba(0,0,0,0.75);
+}
+.card-text {
+    color: #4b4b4b;
+}
+.card-title {
+    margin-top: 10px;
+}
+.card a{
+    text-decoration: none;
+}
+.card a:hover {
+    text-decoration: none;
+}
+/* End common layout */
+.proj-h {
+    font-size: 42px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+.header {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 20px 0 20px;
+    text-align: center;
+}
+.lead {
+    font-size: 18px !important;
+    font-weight: 400;
+}
+.row {
+    margin: 25px 0 25px;
+}
+.info ul li {
+    list-style-type: circle;
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 16px;
+}
+.info ul li a:hover{
+    text-decoration: none;
+}
+
+.stack ul li {
+    list-style-type: circle;
+}
+
+.user {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    transition: ease-in-out 200ms;
+}
+.user:hover {
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.follow ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.follow ul li a {
+    color: #000000;
+    padding: 15px;
+    transition: ease-in-out 200ms;
+}
+.follow ul li a:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #4b4b4b;
+}

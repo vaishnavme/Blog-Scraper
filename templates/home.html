@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 class="proj-h">Blog Scraper</h1>
+<div class="header bg-danger">
+    <h2>Disclaimer!⚠</h2>
+    <p class="lead">I am not taking any of the data from these respective website. All Credits and copyrights belongs to these site. <br>This project is only for <strong>Educational Purpose</strong>.</p>
+</div>
+<div class="row">
+    <div class="info col-sm-4">
+        <h3>Website that I Scraped </h3>
+        <ul>
+            <li>Web Savvy Marketing -<br><a href="https://www.web-savvy-marketing.com"> www.web-savvy-marketing.com</a></li>
+            <li>Speckyboy -<br><a href="https://speckyboy.com"> https://speckyboy.com/</a></li>
+            <li>Analytics Vidhya -<br><a href="https://www.analyticsvidhya.com"> www.analyticsvidhya.com</a></li>
+        </ul>
+    </div>
+    <div class="prob col-sm-4">
+        <h3>Problem I was facing?</h3>
+        <p class="lead">
+            I often read various blog and articles regarding Digital Marketing, Data Science, Web Development.
+            To read these blogs I have to go through various website. So being lazy I didn't want to go through every website in order to read blog.
+        </p>
+    </div>
+    <div class="solve col-sm-4">
+        <h3>How did I solve it!</h3>
+        <p class="lead">In order to read blog in one place, firstly I listed website which I visit to read blog and article. Then I scraped these website using BeautifulSoup and to show scraped data created website using Python Flask.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="stack col-sm-4">
+        <h5>Technology Stack</h5>
+        <ul>
+            <li class="item">Python</li>
+            <li class="item">Flask Framework</li>
+            <li class="item">HTML & CSS</li>
+        </ul>
+    </div>
+    <div class="about col-sm-4">
+        <h5>Blog Scraper</h5>
+        <p class="text-muted small">Created by<a class="user" href="https://www.github.com/vaishnavme"> Vaishnav Chandurkar</a></p>
+        <p class="text-muted small">Blog Scraper is only built for educational purpose. All copyrights and credits are belongs to that respective site.
+            <br> This project is under <strong>MIT license</strong>.
+        </p>
+    </div>
+    <div class="follow col-sm-4">
+        <h5>Let's connect</h5>
+        <ul>
+            <li><a href="https://www.github.com/vaishnavme">github</a></li>
+            <li><a href="https://www.linkedin.com/in/vaishnav-chandurkar">linkedin</a></li>
+        </ul>
+    </div>
+</ul>
+
+{% endblock content %}

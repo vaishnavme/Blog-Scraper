@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="data">
+        <h3>Web Savy Marketing</h3>
+
+        <div class="row">
+            <div class="data-info">
+                {% for img, l, post_heading, short in data %}
+                <div class="card">
+                    <div class="card-body" style="max-width: 30rem;">
+                        <img class="card-img-top" src="{{img}}">
+                        <h4 class="card-title">{{post_heading}}</h4>
+                        <p class="card-text">{{short}}</p>
+                        <hr>
+                        <a href="{{l}}" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
